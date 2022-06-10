@@ -34,4 +34,29 @@
         android:text="TextView"
         tools:text="This is my tweet!!" />
 
+    <ImageView
+        android:id="@+id/embedImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvBody"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="0dp"
+        android:visibility="visible"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvBody"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="193dp"
+        android:layout_marginBottom="1dp"
+        android:layout_toEndOf="@+id/tvScreenName"
+        android:text="TextView" />
+
 </RelativeLayout>
